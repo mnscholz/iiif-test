@@ -50,8 +50,7 @@
           "otherContent": [{
               "@id": "https://raw.githubusercontent.com/mnscholz/iiif-test/master/annolist2.json",
               "@type": "sc:AnnotationList"
-            },
-                           
+            }                           
           ],
           "width": 2087
         }, {
