@@ -1,61 +1,90 @@
 {
-	"@context": "http://iiif.io/api/presentation/2/context.json",
-	"@id": "https://raw.githubusercontent.com/mnscholz/iiif-test/master/example1.json",
-	"@type": "sc:Manifest",
-	"description": "Inspired by and derived from https://iiif.harvardartmuseums.org/manifests/object/299843",
-	"label": "Example: images and layers from different sources",
-	"metadata": [{
-			"label": "Compiler",
-			"value": "Martin Scholz"
-		}, {
-			"label": "Date of creation",
-			"value": "20181207"
-		}, {
-			"label": "Rich text value",
-			"value": "Some <em>HTML</em> and some <code>JSON {}</code>"
-		}
-	],
-	"rendering": {
-		"@id": "https://ub.fau.de",
-		"format": "text/html",
-		"label": "Further information"
-	},
-	"sequences": [{
-			"@id": "https://raw.githubusercontent.com/mnscholz/iiif-test/master/example1.json#sequence-1",
-			"@type": "sc:Sequence",
-			"canvases": [{
-					"@id": "https://raw.githubusercontent.com/mnscholz/iiif-test/master/example1.json#canvas-1",
-					"@type": "sc:Canvas",
-					"height": 2550,
-					"images": [{
-							"@id": "https://iiif.harvardartmuseums.org/manifests/object/299843/annotation/anno-47174896",
-							"@type": "oa:Annotation",
-							"motivation": "sc:painting",
-							"on": "https://iiif.harvardartmuseums.org/manifests/object/299843/canvas/canvas-47174896",
-							"resource": {
-								"@id": "https://ids.lib.harvard.edu/ids/iiif/47174896/full/full/0/native.jpg",
-								"@type": "dctypes:Image",
-								"format": "image/jpeg",
-								"height": 2550,
-								"service": {
-									"@context": "http://iiif.io/api/image/2/context.json",
-									"@id": "https://ids.lib.harvard.edu/ids/iiif/47174896",
-									"profile": "http://iiif.io/api/image/2/level2.json"
-								},
-								"width": 2087
-							}
-						}
-					],
-					"label": "1",
-					"otherContent": [{
-							"@id": "https://iiif.harvardartmuseums.org/manifests/object/299843/list/47174896",
-							"@type": "sc:AnnotationList"
-						}
-					],
-					"width": 2087
-				}
-			],
-			"viewingHint": "individuals"
-		}
-	]
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "https://raw.githubusercontent.com/mnscholz/iiif-test/master/example1.json",
+  "@type": "sc:Manifest",
+  "description": "Inspired by and derived from https://iiif.harvardartmuseums.org/manifests/object/299843",
+  "label": "Example: images and layers from different sources",
+  "metadata": [{
+      "label": "Compiler",
+      "value": "Martin Scholz"
+    }, {
+      "label": "Date of creation",
+      "value": "20181207"
+    }, {
+      "label": "Rich text value",
+      "value": "Some <em>HTML</em> and some <code>JSON {}</code>"
+    }
+  ],
+  "rendering": {
+    "@id": "https://ub.fau.de",
+    "format": "text/html",
+    "label": "Further information"
+  },
+  "sequences": [{
+      "@id": "https://raw.githubusercontent.com/mnscholz/iiif-test/master/example1.json#sequence-1",
+      "@type": "sc:Sequence",
+      "canvases": [{
+          "@id": "https://iiif.harvardartmuseums.org/manifests/object/299843/canvas/canvas-47174896",
+          "@type": "sc:Canvas",
+          "height": 2550,
+          "images": [{
+              "@id": "https://iiif.harvardartmuseums.org/manifests/object/299843/annotation/anno-47174896",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "https://iiif.harvardartmuseums.org/manifests/object/299843/canvas/canvas-47174896",
+              "resource": {
+                "@id": "https://ids.lib.harvard.edu/ids/iiif/47174896/full/full/0/native.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "height": 2550,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://ids.lib.harvard.edu/ids/iiif/47174896",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                },
+                "width": 2087
+              }
+            }
+          ],
+          "label": "Mein erstes Bild",
+          "otherContent": [{
+              "@id": "https://iiif.harvardartmuseums.org/manifests/object/299843/list/47174896",
+              "@type": "sc:AnnotationList"
+            }, {
+              "@id": "https://raw.githubusercontent.com/mnscholz/iiif-test/master/annolist1.json",
+              "@type": "sc:AnnotationList"
+            }
+          ],
+          "width": 2087
+        }, {
+          "@id": "https://purl.stanford.edu/wh234bz9013/iiif/canvas/0001",
+          "@type": "sc:Canvas",
+          "label": "Mein zweites Bild",
+          "height": 7647,
+          "width": 8812,
+          "images": [
+            {
+              "@id": "https://purl.stanford.edu/wh234bz9013/iiif/annotation/0001",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://stacks.stanford.edu/image/iiif/wh234bz9013%2Fwh234bz9013_05_0001/full/full/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "height": 7647,
+                "width": 8812,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://stacks.stanford.edu/image/iiif/wh234bz9013%2Fwh234bz9013_05_0001",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://purl.stanford.edu/wh234bz9013/iiif/canvas/0001"
+            }
+          ]
+        }
+      ],
+      "viewingHint": "individuals"
+    }
+  ]
 }
