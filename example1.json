@@ -34,13 +34,13 @@
 	"rendering": {
 		"@id": "https://ub.fau.de",
 		"format": "text/html",
-		"label": "Further infomration"
+		"label": "Further information"
 	},
 	"sequences": [{
 			"@id": "https://raw.githubusercontent.com/mnscholz/iiif-test/master/example1.json#sequence-1",
 			"@type": "sc:Sequence",
 			"canvases": [{
-					"@id": "https://iiif.harvardartmuseums.org/manifests/object/299843/canvas/canvas-47174896",
+					"@id": "https://raw.githubusercontent.com/mnscholz/iiif-test/master/example1.json#canvas-1",
 					"@type": "sc:Canvas",
 					"height": 2550,
 					"images": [{
@@ -81,6 +81,5 @@
 			"@id": "https://ids.lib.harvard.edu/ids/iiif/47174896",
 			"profile": "http://iiif.io/api/image/2/level2.json"
 		}
-	},
-	"within": "https://www.harvardartmuseums.org/collections"
+	}
 }
