@@ -1,18 +1,10 @@
 {
 	"@context": "http://iiif.io/api/presentation/2/context.json",
-	"@id": "https://iiif.harvardartmuseums.org/manifests/object/299843",
+	"@id": "https://raw.githubusercontent.com/mnscholz/iiif-test/master/example1.json",
 	"@type": "sc:Manifest",
-	"attribution": "Harvard Art Museums",
+	"attribution": "UB Erlangen Nürnberg",
 	"description": "",
-	"label": "Self-Portrait Dedicated to Paul Gauguin",
-	"logo": {
-		"@id": "https://ids.lib.harvard.edu/ids/iiif/437958013/full/!800,800/0/native.jpg",
-		"service": {
-			"@context": "http://iiif.io/api/image/2/context.json",
-			"@id": "https://ids.lib.harvard.edu/ids/iiif/437958013",
-			"profile": "http://iiif.io/api/image/2/level2.json"
-		}
-	},
+	"label": "Example: images and layers from different sources",
 	"metadata": [{
 			"label": "Date",
 			"value": "1888"
@@ -40,9 +32,9 @@
 		}
 	],
 	"rendering": {
-		"@id": "https://www.harvardartmuseums.org/collections/object/299843",
+		"@id": "https://ub.fau.de",
 		"format": "text/html",
-		"label": "Full record view"
+		"label": "Further infomration"
 	},
 	"sequences": [{
 			"@id": "https://raw.githubusercontent.com/mnscholz/iiif-test/master/example1.json#sequence-1",
