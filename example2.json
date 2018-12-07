@@ -32,9 +32,9 @@
 		}
 	],
 	"rendering": {
-		"@id": "https://www.harvardartmuseums.org/collections/object/299843",
+		"@id": "https://ub.fau.de",
 		"format": "text/html",
-		"label": "Full record view"
+		"label": "Further information"
 	},
 	"sequences": [{
 			"@id": "https://raw.githubusercontent.com/mnscholz/iiif-test/master/example1.json#sequence-1",
@@ -81,6 +81,5 @@
 			"@id": "https://ids.lib.harvard.edu/ids/iiif/47174896",
 			"profile": "http://iiif.io/api/image/2/level2.json"
 		}
-	},
-	"within": "https://www.harvardartmuseums.org/collections"
+	}
 }
