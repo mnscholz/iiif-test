@@ -2,7 +2,7 @@
 	"@context": "http://iiif.io/api/presentation/2/context.json",
 	"@id": "https://raw.githubusercontent.com/mnscholz/iiif-test/master/example1.json",
 	"@type": "sc:Manifest",
-	"description": "Inspired and derived from https://iiif.harvardartmuseums.org/manifests/object/299843",
+	"description": "Inspired by and derived from https://iiif.harvardartmuseums.org/manifests/object/299843",
 	"label": "Example: images and layers from different sources",
 	"metadata": [{
 			"label": "Compiler",
