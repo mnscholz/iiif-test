@@ -23,7 +23,7 @@
 	},
 	"sequences": [
 		{
-			"@id": "https://raw.githubusercontent.com/mnscholz/iiif-test/master/example1.json#main",
+			"@id": "https://iiif.harvardartmuseums.org/manifests/object/299843/sequence/normal",
 			"@type": "sc:Sequence",
 			"canvases": [
 				{
