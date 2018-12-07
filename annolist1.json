@@ -1,0 +1,53 @@
+{
+    "@context": "http://www.shared-canvas.org/ns/context.json",
+    "@id": "https://raw.githubusercontent.com/mnscholz/iiif-test/master/annolist1.json",
+    "@type": "sc:AnnotationList",
+    "resources": [
+        {
+            "@context": "http://iiif.io/api/presentation/2/context.json",
+            "@id": "https://raw.githubusercontent.com/mnscholz/iiif-test/master/annolist1.json#anno1",
+            "@type": "oa:Annotation",
+            "motivation": [
+                "oa:commenting"
+            ],
+            "on": {
+                "@type": "oa:SpecificResource",
+                "full": "https://iiif.harvardartmuseums.org/manifests/object/299843/canvas/canvas-47174896",
+                "selector": {
+                    "@type": "oa:FragmentSelector",
+                    "value": "xywh=51,21,518,687"
+                }
+            },
+            "resource": [
+                {
+                    "@type": "dctypes:Text",
+                    "chars": "<em>this</em> is the top left corner, as marked by Martin",
+                    "format": "text/html"
+                }
+            ]
+        },
+        {
+            "@context": "http://iiif.io/api/presentation/2/context.json",
+            "@id": "https://iiif.harvardartmuseums.org/annotations/76410",
+            "@type": "oa:Annotation",
+            "motivation": [
+                "oa:commenting"
+            ],
+            "on": {
+                "@type": "oa:SpecificResource",
+                "full": "https://iiif.harvardartmuseums.org/manifests/object/299843/canvas/canvas-47174896",
+                "selector": {
+                    "@type": "oa:FragmentSelector",
+                    "value": "xywh=1200,1200,500,500"
+                }
+            },
+            "resource": [
+                {
+                    "@type": "dctypes:Text",
+                    "chars": "See also <a href='https://de.wikipedia.org/wiki/Vincent_van_Gogh'>Wikipedia</a>",
+                    "format": "text/html"
+                }
+            ]
+        }
+    ]
+}
