@@ -16,6 +16,10 @@
                 "selector": {
                     "@type": "oa:FragmentSelector",
                     "value": "xywh=51,21,518,687"
+                },
+                "within": {
+                    "@id": "https://raw.githubusercontent.com/mnscholz/iiif-test/master/example1.json",
+                    "@type": "sc:Manifest"
                 }
             },
             "resource": [
@@ -39,6 +43,10 @@
                 "selector": {
                     "@type": "oa:FragmentSelector",
                     "value": "xywh=1200,1200,500,500"
+                },
+                "within": {
+                    "@id": "https://raw.githubusercontent.com/mnscholz/iiif-test/master/example1.json",
+                    "@type": "sc:Manifest"
                 }
             },
             "resource": [
