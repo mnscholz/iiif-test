@@ -5,7 +5,7 @@
     "resources": [
         {
             "@context": "http://iiif.io/api/presentation/2/context.json",
-            "@id": "https://raw.githubusercontent.com/mnscholz/iiif-test/master/annolist1.json#anno1",
+            "@id": "https://raw.githubusercontent.com/mnscholz/iiif-test/master/annolist1.json#anno-1",
             "@type": "oa:Annotation",
             "motivation": [
                 "oa:commenting"
@@ -32,7 +32,7 @@
         },
         {
             "@context": "http://iiif.io/api/presentation/2/context.json",
-            "@id": "https://iiif.harvardartmuseums.org/annotations/76410",
+            "@id": "https://raw.githubusercontent.com/mnscholz/iiif-test/master/annolist1.json#anno-2",
             "@type": "oa:Annotation",
             "motivation": [
                 "oa:commenting"
@@ -45,7 +45,7 @@
                     "value": "xywh=1200,1200,500,500"
                 },
                 "within": {
-                    "@id": "https://raw.githubusercontent.com/mnscholz/iiif-test/master/example1.json",
+                    "@id": "https://iiif.harvardartmuseums.org/manifests/object/299843",
                     "@type": "sc:Manifest"
                 }
             },
