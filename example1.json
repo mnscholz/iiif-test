@@ -1,11 +1,10 @@
 {
-	"@context": "http://iiif.io/api/presentation/2/context.json",
-	"@id": "https://iiif.harvardartmuseums.org/manifests/object/299843",
-	"@type": "sc:Manifest",
-	"attribution": "Harvard Art Museums",
-	"description": "",
-	"label": "Self-Portrait Dedicated to Paul Gauguin",
-
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "https://raw.githubusercontent.com/mnscholz/iiif-test/master/example1.json#main",
+  "@type": "sc:Manifest",
+  "attribution": "Martin Scholz / UB Erlangen-Nürnberg",
+  "description": "Inspired by manifest file https://iiif.harvardartmuseums.org/manifests/object/299843. Embedded images from there.",
+  "label": "Example: combine sequences and layers from different sources",
 	"metadata": [
 		{
 			"label": "Date",
