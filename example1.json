@@ -13,7 +13,8 @@
       "value": "20181207"
     }, {
       "label": "Some label",
-	  "value": "Some <em>HTML</em> text as <br><code><blink>value</blink></code>"
+      "value": "Some <em>HTML</em> text as <br><code><blink>value</blink></code>"
+    }
   ],
   "sequences": [{
       "@id": "https://raw.githubusercontent.com/mnscholz/iiif-test/master/example1.json#sequence-1",
