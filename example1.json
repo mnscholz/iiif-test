@@ -16,6 +16,11 @@
       "value": "Some <em>HTML</em> text as <br><code><blink>value</blink></code>"
     }
   ],
+		"rendering": {
+		"@id": "https://www.harvardartmuseums.org/collections/object/299843",
+		"format": "text/html",
+		"label": "Full record view"
+	},
   "sequences": [{
       "@id": "https://raw.githubusercontent.com/mnscholz/iiif-test/master/example1.json#sequence-1",
       "@type": "sc:Sequence",
