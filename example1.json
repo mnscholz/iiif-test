@@ -1,6 +1,6 @@
 {
   "@context": "http://iiif.io/api/presentation/2/context.json",
-  "@id": "https://example.org/example1.json#main",
+  "@id": "https://raw.githubusercontent.com/mnscholz/iiif-test/master/example1.json#main",
   "@type": "sc:Manifest",
   "attribution": "Harvard Art Museums",
   "description": "Inspired by manifest file https://iiif.harvardartmuseums.org/manifests/object/299843",
@@ -16,18 +16,18 @@
 	  "value": "Some <em>HTML</em> text as <br><code><blink>value</blink></code>"
   ],
   "sequences": [{
-      "@id": "https://example.org/example1.json#sequence-1",
+      "@id": "https://raw.githubusercontent.com/mnscholz/iiif-test/master/example1.json#sequence-1",
       "@type": "sc:Sequence",
       "canvases": [{
-          "@id": "https://example.org/example1.json#canvas-1",
+          "@id": "https://raw.githubusercontent.com/mnscholz/iiif-test/master/example1.json#canvas-1",
           "@type": "sc:Canvas",
           "height": 2550,
           "width": 2087,
           "images": [{
-              "@id": "https://example.org/example1.json#image-1",
+              "@id": "https://raw.githubusercontent.com/mnscholz/iiif-test/master/example1.json#image-1",
               "@type": "oa:Annotation",
               "motivation": "sc:painting",
-              "on": "https://example.org/example1.json#canvas-1",
+              "on": "https://raw.githubusercontent.com/mnscholz/iiif-test/master/example1.json#canvas-1",
               "resource": {
                 "@id": "https://ids.lib.harvard.edu/ids/iiif/47174896/full/full/0/native.jpg",
                 "@type": "dctypes:Image",
@@ -44,7 +44,7 @@
           ],
           "label": "First",
           "otherContent": [{
-              "@id": "https://example.org/example1.json#canvas-1",
+              "@id": "https://raw.githubusercontent.com/mnscholz/iiif-test/master/example1.json#canvas-1",
               "@type": "sc:AnnotationList"
             }
           ]
