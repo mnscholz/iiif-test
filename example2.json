@@ -31,7 +31,7 @@
 							"@id": "https://iiif.harvardartmuseums.org/manifests/object/299843/annotation/anno-47174896",
 							"@type": "oa:Annotation",
 							"motivation": "sc:painting",
-							"on": "https://iiif.harvardartmuseums.org/manifests/object/299843/canvas/canvas-47174896",
+							"on": "https://raw.githubusercontent.com/mnscholz/iiif-test/master/example1.json#canvas-1",
 							"resource": {
 								"@id": "https://ids.lib.harvard.edu/ids/iiif/47174896/full/full/0/native.jpg",
 								"@type": "dctypes:Image",
@@ -57,7 +57,7 @@
 					],
 					"width": 2087
 				},{
-          "@id": "https://purl.stanford.edu/wh234bz9013/iiif/canvas/0001",
+          "@id": "https://raw.githubusercontent.com/mnscholz/iiif-test/master/example1.json#canvas-2",
           "@type": "sc:Canvas",
           "label": "image",
           "height": 7647,
@@ -79,7 +79,7 @@
                   "profile": "http://iiif.io/api/image/2/level2.json"
                 }
               },
-              "on": "https://purl.stanford.edu/wh234bz9013/iiif/canvas/0001"
+              "on": "https://raw.githubusercontent.com/mnscholz/iiif-test/master/example1.json#canvas-2"
             }
           ]
         }
