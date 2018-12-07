@@ -2,9 +2,9 @@
   "@context": "http://iiif.io/api/presentation/2/context.json",
   "@id": "https://raw.githubusercontent.com/mnscholz/iiif-test/master/example1.json#main",
   "@type": "sc:Manifest",
-  "attribution": "Harvard Art Museums",
-  "description": "Inspired by manifest file https://iiif.harvardartmuseums.org/manifests/object/299843",
-  "label": "Example how to combine sequences and layers from different sources",
+  "attribution": "Martin Scholz / UB Erlangen-Nürnberg",
+  "description": "Inspired by manifest file https://iiif.harvardartmuseums.org/manifests/object/299843. Embedded images from there.",
+  "label": "Example: combine sequences and layers from different sources",
   "metadata": [{
       "label": "Author",
       "value": "Martin Scholz"
@@ -82,5 +82,14 @@
         }
       ]
     }
-  ]
+  ],
+  "thumbnail": {
+		"@id": "https://ids.lib.harvard.edu/ids/iiif/47174896/full/!170,170/0/native.jpg",
+		"service": {
+			"@context": "http://iiif.io/api/image/2/context.json",
+			"@id": "https://ids.lib.harvard.edu/ids/iiif/47174896",
+			"profile": "http://iiif.io/api/image/2/level2.json"
+		}
+	},
+	"within": "https://raw.githubusercontent.com/mnscholz/iiif-test/master/example1.json#canvas-1"
 }
