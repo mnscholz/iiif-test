@@ -17,17 +17,17 @@
     }
   ],
 	"rendering": {
-		"@id": "https://www.harvardartmuseums.org/collections/object/299843",
+		"@id": "https://ub.fau.de",
 		"format": "text/html",
-		"label": "Full record view"
+		"label": "UB Erlangen-Nürnberg"
 	},
 	"sequences": [
 		{
-			"@id": "https://iiif.harvardartmuseums.org/manifests/object/299843/sequence/normal",
+			"@id": "https://raw.githubusercontent.com/mnscholz/iiif-test/master/example1.json#sequence-1",
 			"@type": "sc:Sequence",
 			"canvases": [
 				{
-					"@id": "https://iiif.harvardartmuseums.org/manifests/object/299843/canvas/canvas-47174896",
+					"@id": "https://raw.githubusercontent.com/mnscholz/iiif-test/master/example1.json#canvas-1",
 					"@type": "sc:Canvas",
 					"height": 2550,
 					"images": [
@@ -35,7 +35,7 @@
 							"@id": "https://iiif.harvardartmuseums.org/manifests/object/299843/annotation/anno-47174896",
 							"@type": "oa:Annotation",
 							"motivation": "sc:painting",
-							"on": "https://iiif.harvardartmuseums.org/manifests/object/299843/canvas/canvas-47174896",
+							"on": "https://raw.githubusercontent.com/mnscholz/iiif-test/master/example1.json#canvas-1",
 							"resource": {
 								"@id": "https://ids.lib.harvard.edu/ids/iiif/47174896/full/full/0/native.jpg",
 								"@type": "dctypes:Image",
@@ -71,5 +71,4 @@
 			"profile": "http://iiif.io/api/image/2/level2.json"
 		}
 	},
-	"within": "https://www.harvardartmuseums.org/collections"
 }
