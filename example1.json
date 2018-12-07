@@ -48,10 +48,7 @@
           ],
           "label": "Mein erstes Bild",
           "otherContent": [{
-              "@id": "https://iiif.harvardartmuseums.org/manifests/object/299843/list/47174896",
-              "@type": "sc:AnnotationList"
-            }, {
-              "@id": "https://raw.githubusercontent.com/mnscholz/iiif-test/master/annolist1.json",
+              "@id": "https://raw.githubusercontent.com/mnscholz/iiif-test/master/annolist2.json",
               "@type": "sc:AnnotationList"
             }
           ],
