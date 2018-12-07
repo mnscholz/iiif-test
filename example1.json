@@ -45,7 +45,7 @@
 		"label": "Full record view"
 	},
 	"sequences": [{
-			"@id": "https://iiif.harvardartmuseums.org/manifests/object/299843/sequence/normal",
+			"@id": "https://raw.githubusercontent.com/mnscholz/iiif-test/master/example1.json#sequence-1",
 			"@type": "sc:Sequence",
 			"canvases": [{
 					"@id": "https://iiif.harvardartmuseums.org/manifests/object/299843/canvas/canvas-47174896",
