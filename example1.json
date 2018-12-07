@@ -2,7 +2,6 @@
 	"@context": "http://iiif.io/api/presentation/2/context.json",
 	"@id": "https://raw.githubusercontent.com/mnscholz/iiif-test/master/example1.json",
 	"@type": "sc:Manifest",
-	"attribution": "UB Erlangen Nürnberg",
 	"description": "Inspired and derived from https://iiif.harvardartmuseums.org/manifests/object/299843",
 	"label": "Example: images and layers from different sources",
 	"metadata": [{
@@ -58,13 +57,5 @@
 			],
 			"viewingHint": "individuals"
 		}
-	],
-	"thumbnail": {
-		"@id": "https://ids.lib.harvard.edu/ids/iiif/47174896/full/!170,170/0/native.jpg",
-		"service": {
-			"@context": "http://iiif.io/api/image/2/context.json",
-			"@id": "https://ids.lib.harvard.edu/ids/iiif/47174896",
-			"profile": "http://iiif.io/api/image/2/level2.json"
-		}
-	}
+	]
 }
