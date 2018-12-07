@@ -1,37 +1,57 @@
 {
-  "@context": "http://iiif.io/api/presentation/2/context.json",
-  "@id": "https://raw.githubusercontent.com/mnscholz/iiif-test/master/example1.json#main",
-  "@type": "sc:Manifest",
-  "attribution": "Martin Scholz / UB Erlangen-Nürnberg",
-  "description": "Inspired by manifest file https://iiif.harvardartmuseums.org/manifests/object/299843. Embedded images from there.",
-  "label": "Example: combine sequences and layers from different sources",
-  "metadata": [{
-      "label": "Author",
-      "value": "Martin Scholz"
-    }, {
-      "label": "Date of creation",
-      "value": "20181207"
-    }, {
-      "label": "Some label",
-      "value": "Some <em>HTML</em> text as <br><code><blink>value</blink></code>"
-    }
-  ],
+	"@context": "http://iiif.io/api/presentation/2/context.json",
+	"@id": "https://iiif.harvardartmuseums.org/manifests/object/299843",
+	"@type": "sc:Manifest",
+	"attribution": "Harvard Art Museums",
+	"description": "",
+	"label": "Self-Portrait Dedicated to Paul Gauguin",
+	"logo": {
+		"@id": "https://ids.lib.harvard.edu/ids/iiif/437958013/full/!800,800/0/native.jpg",
+		"service": {
+			"@context": "http://iiif.io/api/image/2/context.json",
+			"@id": "https://ids.lib.harvard.edu/ids/iiif/437958013",
+			"profile": "http://iiif.io/api/image/2/level2.json"
+		}
+	},
+	"metadata": [{
+			"label": "Date",
+			"value": "1888"
+		}, {
+			"label": "Classification",
+			"value": "Paintings"
+		}, {
+			"label": "Credit Line",
+			"value": "Harvard Art Museums/Fogg Museum, Bequest from the Collection of Maurice Wertheim, Class of 1906"
+		}, {
+			"label": "Object Number",
+			"value": "1951.65"
+		}, {
+			"label": "People",
+			"value": ["Artist: Vincent van Gogh, Dutch, 1853 - 1890"]
+		}, {
+			"label": "Medium",
+			"value": "Oil on canvas"
+		}, {
+			"label": "Dimensions",
+			"value": "61.5 x 50.3 cm (24 3/16 x 19 13/16 in.)\r\nframed: 90.4 x 79.7 x 8.3 cm (35 9/16 x 31 3/8 x 3 1/4 in.)"
+		}, {
+			"label": "Provenance",
+			"value": "Vincent van Gogh, Arles, (1888,) gift;  to Paul Gauguin, (1888-1897) sold. [Ambroise Vollard, Paris.] [Paul Cassirer Gallery, Berlin.] Dr. Hugo von Tschudi, Berlin, (1906-1911), by descent; to his widow, Angela von Tschudi, Munich (1911-1919),  to Neue Staatsgalerie, Munich (1919-1938); removed from the collection by the National Socialist (Nazi) authorities in 1938, consigned; to [Theodor Fischer Gallery, Lucerne, Switzerland, for sale June 30, 1939, lot 45]; to Maurice Wertheim (1939-1951) bequest; to Fogg Art Museum, 1951.\r\n\r\n \r\n\r\nNotes:\r\nGauguin sold the painting for Fr 300\r\nHugo von Tschudi bought the painting for the Nationalgalerie, Berlin, with funds from sponsors, but did not submit it to the Kaiser for pre-approval. He took the painting to Munich when he assumed a post there.\r\nAccording to Stephanie Barron, the van Gogh was removed from the Neue Staatsgalerie on March 27, 1938 and stored at Schloss Niedersch\u00f6nhausen in August of that year. (Barron, 1990,pp. 135-146)\r\n"
+		}
+	],
 	"rendering": {
 		"@id": "https://www.harvardartmuseums.org/collections/object/299843",
 		"format": "text/html",
 		"label": "Full record view"
 	},
-	"sequences": [
-		{
-			"@id": "https://iiif.harvardartmuseums.org/manifests/object/299843/sequence/normal",
+	"sequences": [{
+			"@id": "https://raw.githubusercontent.com/mnscholz/iiif-test/master/example1.json#sequence-1",
 			"@type": "sc:Sequence",
-			"canvases": [
-				{
+			"canvases": [{
 					"@id": "https://iiif.harvardartmuseums.org/manifests/object/299843/canvas/canvas-47174896",
 					"@type": "sc:Canvas",
 					"height": 2550,
-					"images": [
-						{
+					"images": [{
 							"@id": "https://iiif.harvardartmuseums.org/manifests/object/299843/annotation/anno-47174896",
 							"@type": "oa:Annotation",
 							"motivation": "sc:painting",
@@ -51,8 +71,7 @@
 						}
 					],
 					"label": "1",
-					"otherContent": [
-						{
+					"otherContent": [{
 							"@id": "https://iiif.harvardartmuseums.org/manifests/object/299843/list/47174896",
 							"@type": "sc:AnnotationList"
 						}
@@ -71,4 +90,5 @@
 			"profile": "http://iiif.io/api/image/2/level2.json"
 		}
 	},
+	"within": "https://www.harvardartmuseums.org/collections"
 }
