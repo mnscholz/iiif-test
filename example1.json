@@ -19,15 +19,15 @@
 	"rendering": {
 		"@id": "https://ub.fau.de",
 		"format": "text/html",
-		"label": "UB Erlangen-Nürnberg"
+		"label": "UB Erlangen"
 	},
 	"sequences": [
 		{
-			"@id": "https://raw.githubusercontent.com/mnscholz/iiif-test/master/example1.json#sequence-1",
+			"@id": "https://raw.githubusercontent.com/mnscholz/iiif-test/master/example1.json#main",
 			"@type": "sc:Sequence",
 			"canvases": [
 				{
-					"@id": "https://raw.githubusercontent.com/mnscholz/iiif-test/master/example1.json#canvas-1",
+					"@id": "https://iiif.harvardartmuseums.org/manifests/object/299843/canvas/canvas-47174896",
 					"@type": "sc:Canvas",
 					"height": 2550,
 					"images": [
@@ -35,7 +35,7 @@
 							"@id": "https://iiif.harvardartmuseums.org/manifests/object/299843/annotation/anno-47174896",
 							"@type": "oa:Annotation",
 							"motivation": "sc:painting",
-							"on": "https://raw.githubusercontent.com/mnscholz/iiif-test/master/example1.json#canvas-1",
+							"on": "https://iiif.harvardartmuseums.org/manifests/object/299843/canvas/canvas-47174896",
 							"resource": {
 								"@id": "https://ids.lib.harvard.edu/ids/iiif/47174896/full/full/0/native.jpg",
 								"@type": "dctypes:Image",
