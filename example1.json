@@ -20,7 +20,9 @@
     "format": "text/html",
     "label": "Further information"
   },
-  "sequences": [{
+  "sequences": [
+    "https://www.e-codices.unifr.ch/metadata/iiif/sl-0002/canvas/bke-0020_e001.json",
+    {
       "@id": "https://raw.githubusercontent.com/mnscholz/iiif-test/master/example1.json#sequence-1",
       "@type": "sc:Sequence",
       "canvases": [{
