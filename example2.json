@@ -1,0 +1,92 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "https://raw.githubusercontent.com/mnscholz/iiif-test/master/example1.json",
+  "@type": "sc:Manifest",
+  "description": "Just a compilation from different sources",
+  "label": "Example: images and layers from different sources",
+  "metadata": [{
+      "label": "Compiler",
+      "value": "Martin Scholz"
+    }, {
+      "label": "Date of creation",
+      "value": "20181207"
+    }, {
+      "label": "Rich text value",
+      "value": "Some <em>HTML</em> and some <code>JSON {}</code>"
+    }
+  ],
+  "rendering": {
+    "@id": "https://ub.fau.de",
+    "format": "text/html",
+    "label": "Further information"
+  },
+  "sequences": [{
+    
+      "@id": "https://raw.githubusercontent.com/mnscholz/iiif-test/master/example1.json#sequence-1",
+      "@type": "sc:Sequence",
+      "canvases": [{
+          "@id": "https://iiif.harvardartmuseums.org/manifests/object/299843/canvas/canvas-47174896",
+          "@type": "sc:Canvas",
+          "height": 2550,
+          "images": [{
+              "@id": "https://iiif.harvardartmuseums.org/manifests/object/299843/annotation/anno-47174896",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "https://iiif.harvardartmuseums.org/manifests/object/299843/canvas/canvas-47174896",
+              "resource": {
+                "@id": "https://ids.lib.harvard.edu/ids/iiif/47174896/full/full/0/native.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "height": 2550,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://ids.lib.harvard.edu/ids/iiif/47174896",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                },
+                "width": 2087
+              }
+            }
+          ],
+          "label": "Mein erstes Bild",
+          "otherContent": [{
+              "@id": "https://raw.githubusercontent.com/mnscholz/iiif-test/master/annolist2.json",
+              "@type": "sc:AnnotationList"
+            }                           
+          ],
+          "width": 2087
+        }, {
+					"@id": "http://localhost:8182/iiif/2/nuremberg.jpg/info.json",
+					"@type": "sc:Canvas",
+					"label": "Nürnberg",
+					"height": 1279,
+					"width": 1920,
+					"images": [{
+							"@type": "oa:Annotation",
+							"motivation": "sc:painting",
+							"on": "http://localhost:8182/iiif/2/nuremberg.jpg/info.json",
+							"resource": {
+								"@id": "http://localhost:8182/iiif/2/nuremberg.jpg/full/full/0/default.jpg",
+								"@type": "dctypes:Image",
+								"format": "image/jpeg",
+								"height": 1279,
+								"width": 1920,
+								"service": {
+									"@context": "http://iiif.io/api/image/2/context.json",
+									"@id": "http://localhost:8182/iiif/2/nuremberg.jpg",
+									"profile": "http://iiif.io/api/image/2/level2.json"
+								}
+							}
+						}
+					],
+					"service": {
+						"@context": "http://iiif.io/api/annex/services/physdim/1/context.json",
+						"profile": "http://iiif.io/api/annex/services/physdim",
+						"physicalScale": 0.2583757178014766,
+						"physicalUnits": "mm"
+					}
+				}
+      ],
+      "viewingHint": "individuals"
+    }
+  ]
+}
